@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="javascripts/register.js"></script>
+    <script src="javascripts/validations.js"></script>
+    <title>register</title>
+</head>
+<body style="background-color: beige">
+<div class="card " style="background-color: beige ;width: 60%;  margin: 0 auto; margin-top: 3%">
+    <img class="card-img-top" src="images/Mars-planet.png">
+    <h2>register.</h2>
+    <div style="margin: 2%">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<form id="todo-input-form" action="/register" class="togglevisible" method="post">
+    <div class="mb-3" >
+        <p class="form-label">Email</p>
+        <label for="email"></label><input type="email" id="Email" name="email" class="form-control" placeholder="type email here">
+        <div class="text-danger errormessage"><%= errorMessage %></div>
+        <div class="text-danger errormessage"></div>
+    </div>
+    <div class="mb-3" >
+        <p class="form-label">First name</p>
+        <label for="First_name"></label><input type="text" id="First_name" name="first_name" class="form-control" placeholder="First name">
+        <div class="text-danger errormessage"></div>
+    </div>
+    <div class="mb-3" >
+        <p class="form-label">Family name</p>
+        <label for="Family_name"></label><input type="text" id="Family_name" name="family_name" class="form-control" placeholder="Family name">
+        <div class="text-danger errormessage"></div>
+    </div>
+    <div style="margin-top: 2%">
+        <button class="btn btn-outline-secondary" type="submit" id="register-button">register</button>
+    </div>
+</form>
+        <div>
+            <a class="" href = "/">have account login here!</a>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
